@@ -1,13 +1,17 @@
 body {
-    margin: 0;
+    margin: 70px;
+    margin-top: 4px;
     font-family: "Arial";
 }
-
+h1{
+    text-align: center;
+}
 .NavBar {
     background-color: #ffffff;
     padding: 19px;
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
+    margin-bottom: 45px;
 }
 
 .NavList {
@@ -43,8 +47,19 @@ body {
   }
   
   .divColumn1, .divColumn2, .divColumn3 {
-    padding: 30px;
-    border-left: 1px solid #ccc; 
+    padding: 1px 36px 6px 36px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc; 
     box-sizing: border-box;
-  }
+    width: 374px
+  } 
   
+.ImgTJLand {
+    width: 300px;
+}
+.ImgWMLand{
+    width: 300px;
+}
+.ImgArtP{
+    width: 300px;
+}
