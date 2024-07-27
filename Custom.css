@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+}
+
+.NavBar {
+    background-color: #ffffff;
+    padding: 19px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+.NavList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.NavList li {
+    margin: 0;
+}
+
+.NavList a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    padding: 8px 16px; 
+}
+
+.NavList a:hover {
+    background-color: #94e1fa;
+    border-radius: 4px;
+}
+
+.DivWriting {
+    display: flex;
+  }
+  
+  .Column {
+    flex: 1; 
+  }
+  
+  .divColumn1, .divColumn2, .divColumn3 {
+    padding: 30px;
+    border-left: 1px solid #ccc; 
+    box-sizing: border-box;
+  }
+  
