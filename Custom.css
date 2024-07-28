@@ -1,13 +1,26 @@
 body {
     margin: 70px;
-    margin-top: 4px;
     font-family: "Arial";
 }
 h1{
-    text-align: center;
+    margin: 0;
+}
+.ImgNewsPaper{
+    width: 70px;
+}
+.Heading {   
+    margin: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.txtDate {
+    align-self: left;
+    margin-top: 0px;
 }
 .NavBar {
-    background-color: #ffffff;
     padding: 19px;
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
@@ -28,13 +41,14 @@ h1{
 
 .NavList a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     font-size: 19px;
     padding: 8px 16px; 
 }
 
 .NavList a:hover {
-    background-color: #94e1fa;
+    background-color: #540100;
+    color: white;
     border-radius: 4px;
 }
 
@@ -51,7 +65,7 @@ h1{
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc; 
     box-sizing: border-box;
-    width: 374px
+    width: 100%
   } 
   
 .ImgTJLand {
@@ -62,4 +76,7 @@ h1{
 }
 .ImgArtP{
     width: 300px;
+}
+.ImgTJLand, .ImgWMLand, .ImgArtP {
+    width: 100%;
 }
